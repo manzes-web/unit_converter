@@ -1,0 +1,44 @@
+<resources>
+    <string name="Weight_Page">Weight_page</string>
+    <string name="Length_page">Length_page</string>
+    <string name="Time_page">Time_page</string>
+    <string name="Currency_page">Currency_page</string>
+    <string name="Temperature_page">Temperature_page</string>
+    <string name="Calculator_page">Calculator_page</string>
+    <string name="Value_text">00</string>
+    <string name="convert">convert</string>
+    <string-array name="spinner_items">
+        <item>KG</item>
+        <item>POUND</item>
+    </string-array>
+    <string-array name="Length_items">
+        <item>CENTIMETER</item>
+        <item>INCHES</item>
+    </string-array>
+    <string-array name="Temperature_items">
+        <item>CELSIUS(°C)</item>
+        <item>FAHRENHEIT(°F)</item>
+        <item>KELVIN(K)</item>
+    </string-array>
+    <string-array name="Time_items">
+        <item>SECONDS</item>
+        <item>HOURS</item>
+        <item>MINUTES</item>
+        <item>MILLISECONDS</item>
+    </string-array>
+    <string-array name="spinner2_items_kg_selected">
+        <item>POUND</item>
+    </string-array>
+    <string-array name="spinner2_items_pound_selected">
+        <item>KG</item>
+    </string-array>
+    <string-array name="inches_selected">
+        <item>CENTIMETER</item>
+    </string-array>
+
+    <string-array name="centimeter_selected">
+        <item>INCHES</item>
+    </string-array>
+    <string name="edit_text_description">input</string>
+    <string name="spinner_content_description">value</string>
+</resources>
