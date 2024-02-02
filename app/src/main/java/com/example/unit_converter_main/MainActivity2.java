@@ -1,27 +1,20 @@
 package com.example.unit_converter_main;
 
-import androidx.annotation.NonNull;
+
 import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import androidx.appcompat.widget.Toolbar;
-import android.view.MenuItem;
-import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import org.w3c.dom.Text;
-
 import java.util.Objects;
 
 public class MainActivity2 extends AppCompatActivity {
     private EditText editTextText;
-    private  EditText editTextText1;
     private TextView textView;
 
     @SuppressLint({"DefaultLocale", "SetTextI18n"})
@@ -34,8 +27,6 @@ public class MainActivity2 extends AppCompatActivity {
 
         // Enable the Up button
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
-
-        // Incorrect: Setting content view to activity_main again
 //        setContentView(R.layout.activity_main2);
         Button button = findViewById(R.id.button);
 //        TextView textView = findViewById(R.id.textView2);
@@ -73,14 +64,14 @@ public class MainActivity2 extends AppCompatActivity {
         });
 
     }
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        // Handle toolbar item clicks
-            if (item.getItemId() == android.R.id.home) {// Respond to the action bar's Up/Home button
-                onBackPressed(); // Or handle navigation as needed
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
+//    @Override
+//    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+//        // Handle toolbar item clicks
+//            if (item.getItemId() == android.R.id.home) {// Respond to the action bar's Up/Home button
+//                onBackPressed(); // Or handle navigation as needed
+//            return true;
+//        }
+//        return super.onOptionsItemSelected(item);
+//    }
 
 }

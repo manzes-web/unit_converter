@@ -68,13 +68,4 @@ public class Length_page extends AppCompatActivity {
 
     });
     }
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        // Handle toolbar item clicks
-        if (item.getItemId() == android.R.id.home) {// Respond to the action bar's Up/Home button
-            onBackPressed(); // Or handle navigation as needed
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
 }
